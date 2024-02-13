@@ -7,7 +7,8 @@ SignalFlow is a package for event driven development in golang using Message bro
                 ↧ 1:n (ForeachN)
 +―――――――――――――――――――+
 | SignalFlow        | 
-| signal-flow       | ↦ Exchange
+| ForeachN          |
+| Emit              | ↦ Exchange
 +―――――――――――――――――――+ 1:n (Emit)
 
 
